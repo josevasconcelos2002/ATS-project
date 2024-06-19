@@ -1,0 +1,2 @@
+[MASTER] 21:49:01.348 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Iterator<E> : Type points to itself
+[MASTER] 21:49:32.267 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself

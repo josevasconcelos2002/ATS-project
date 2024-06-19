@@ -1,0 +1,147 @@
+* Starting client
+* Connecting to master process on port 19970
+* Analyzing classpath: 
+  - C:\Users\silva\Documents\PL\Projeto2\TP2\target\classes
+  - C:\Users\silva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\silva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar
+  - C:\Users\silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar
+* Finished analyzing classpath
+* Generating tests for class Menu
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:24:24.510 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\evosuite-seeds\Menu.seed
+* Loaded 0 tests from C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\evosuite-seeds\Menu.seed
+* Total number of test goals: 
+  - Line 740
+  - Branch 152
+  - Exception 0
+  - MutationFactory 699
+  - Output 161
+  - Method 92
+  - MethodNoException 92
+  - CBranchFitnessFactory 152
+* Using seed 1716733462059
+* Starting evolution
+* Search finished after 90s and 6 generations, 869 statements, best individual has fitness: 1137.0150249679614
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 15:27:35.165 [pool-2-thread-1] WARN  TestSuiteMinimizer - Minimization timeout. Roll back to original test suite
+[MASTER] 15:27:35.166 [pool-2-thread-1] WARN  TimeController - Phase MINIMIZATION lasted too long, 36 seconds more than allowed.
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 46%
+* Total number of goals: 740
+* Number of covered goals: 344
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 47%
+* Total number of goals: 152
+* Number of covered goals: 72
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 56
+* Number of covered goals: 56
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 24%
+* Total number of goals: 699
+* Number of covered goals: 169
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 1%
+* Total number of goals: 161
+* Number of covered goals: 1
+* Coverage analysis for criterion METHOD
+[MASTER] 15:27:35.445 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHOD] Menu.encomendas_retiradas()V
+[MASTER] 15:27:35.446 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHOD] Menu.pedir_ano_colecao(Ljava/time/LocalDate;)I
+[MASTER] 15:27:35.447 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHOD] Menu.pedir_estado()I
+[MASTER] 15:27:35.449 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHOD] Menu.print_de_comprar()V
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 92
+* Number of covered goals: 92
+* Coverage analysis for criterion METHODNOEXCEPTION
+[MASTER] 15:27:35.461 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.atacadores()Z
+[MASTER] 15:27:35.461 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.encomeda_id()J
+[MASTER] 15:27:35.462 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.encomendas_retiradas()V
+[MASTER] 15:27:35.462 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.escolha_querys()I
+[MASTER] 15:27:35.462 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.iniciar_menu()I
+[MASTER] 15:27:35.462 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menuTrasnportadoras()I
+[MASTER] 15:27:35.462 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_encomedas()I
+[MASTER] 15:27:35.463 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_escolha()I
+[MASTER] 15:27:35.463 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_faturas()I
+[MASTER] 15:27:35.463 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_malas_pesquisa()I
+[MASTER] 15:27:35.463 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_pesquisas()I
+[MASTER] 15:27:35.463 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_pesquisas_tipo()I
+[MASTER] 15:27:35.463 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_tshirt_pesquisa()I
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_venda()I
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.menu_venda_tipos()I
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.n_maiores()I
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedirNomeTransportadora()Ljava/lang/String;
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_ano()I
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_ano_colecao(Ljava/time/LocalDate;)I
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_artigo_adicionar()Ljava/lang/String;
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_artigo_remover()Ljava/lang/String;
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_cor()Ljava/lang/String;
+[MASTER] 15:27:35.464 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_data()Ljava/time/LocalDate;
+[MASTER] 15:27:35.465 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_data_fim(Ljava/time/LocalDate;)Ljava/time/LocalDate;
+[MASTER] 15:27:35.465 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_data_inicio()Ljava/time/LocalDate;
+[MASTER] 15:27:35.465 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_descricao()Ljava/lang/String;
+[MASTER] 15:27:35.465 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_dimensao()I
+[MASTER] 15:27:35.466 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_email()Ljava/lang/String;
+[MASTER] 15:27:35.466 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_estado()I
+[MASTER] 15:27:35.466 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_formula(I)I
+[MASTER] 15:27:35.466 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_id_artigo()Ljava/lang/String;
+[MASTER] 15:27:35.466 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_local_ficheiro()Ljava/lang/String;
+[MASTER] 15:27:35.466 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_marca()Ljava/lang/String;
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_margem_lucro()D
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_material()Ljava/lang/String;
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_morada()Ljava/lang/String;
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_nif()J
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_nome()Ljava/lang/String;
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_novo()Z
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_numero_utlizador()I
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_padrao()LPadrao;
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_password()Ljava/lang/String;
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_preco()D
+[MASTER] 15:27:35.467 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_premium()Z
+[MASTER] 15:27:35.468 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_tamanho_sapatilha()I
+[MASTER] 15:27:35.468 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_tamanho_tshirt()LTamanho;
+[MASTER] 15:27:35.468 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_valor_medio()D
+[MASTER] 15:27:35.468 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_valor_pequeno()D
+[MASTER] 15:27:35.468 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_valorizacao()F
+[MASTER] 15:27:35.469 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.pedir_vendedor()J
+[MASTER] 15:27:35.469 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.print_de_comprar()V
+[MASTER] 15:27:35.469 [pool-2-thread-1] WARN  CoverageArchive - A solution with a timeout/exception result has been added to the archive. The covered goal was [METHODNOEX] Menu.tempo_avançar(Ljava/time/LocalDate;)Ljava/time/LocalDate;
+* Coverage of criterion METHODNOEXCEPTION: 92%
+* Total number of goals: 92
+* Number of covered goals: 85
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 47%
+* Total number of goals: 152
+* Number of covered goals: 72
+* Generated 106 tests with total length 1801
+* Resulting test suite's coverage: 51% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 15:27:35.577 [pool-2-thread-1] WARN  TimeController - Current phase ASSERTION_GENERATION could run up to 14s, but only -21s are left
+* Skipping assertion generation because not enough time is left
+* Compiling and checking tests
+[MASTER] 15:27:35.649 [pool-2-thread-1] WARN  TimeController - Current phase JUNIT_CHECK could run up to 14s, but only -21s are left
+* Permissions denied during test execution: 
+  - java.net.SocketPermission: 
+         listen,resolve localhost:0: 1
+[MASTER] 15:27:35.650 [pool-2-thread-1] WARN  TimeController - Current phase WRITING_TESTS could run up to 14s, but only -21s are left
+* Writing JUnit test case 'Menu_ESTest' to C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\tmp_2024_05_26_15_18_55\tests
+* Done!
+

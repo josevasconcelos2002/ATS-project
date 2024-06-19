@@ -1,0 +1,45 @@
+* Starting client
+* Connecting to master process on port 6565
+* Analyzing classpath: 
+  - C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\target\test-classes
+  - C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\target\classes
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar
+  - C:\Users\silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar
+  - C:\Users\silva\.m2\repository\org\mockito\mockito-junit-jupiter\2.19.0\mockito-junit-jupiter-2.19.0.jar
+  - C:\Users\silva\.m2\repository\org\mockito\mockito-core\2.19.0\mockito-core-2.19.0.jar
+  - C:\Users\silva\.m2\repository\net\bytebuddy\byte-buddy\1.8.10\byte-buddy-1.8.10.jar
+  - C:\Users\silva\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.10\byte-buddy-agent-1.8.10.jar
+  - C:\Users\silva\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar
+  - C:\Users\silva\.m2\repository\net\objecthunter\exp4j\0.4.8\exp4j-0.4.8.jar
+  - C:\Users\silva\.m2\repository\org\jetbrains\annotations\24.0.0\annotations-24.0.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.marketplace.vintage.view.impl.UserLoginView
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:39:12.648 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\evosuite-seeds\com.marketplace.vintage.view.impl.UserLoginView.seed
+* Loaded 0 tests from C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\evosuite-seeds\com.marketplace.vintage.view.impl.UserLoginView.seed
+* Total number of test goals: 
+  - Line 29
+  - Branch 11
+  - Exception 0
+  - MutationFactory 17
+  - Output 4
+  - Method 4
+  - MethodNoException 4
+  - CBranchFitnessFactory 11
+* Using seed 1716755948258
+* Starting evolution

@@ -1,0 +1,2 @@
+[MASTER] 15:29:28.387 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 15:29:39.009 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Encomenda>[] temporalQueryArray0 = (TemporalQuery<Encomenda>[]) Array.newInstance(TemporalQuery.class, 4);, assignment statement: temporalQueryArray0[0] = (TemporalQuery<Encomenda>) temporalQueryArray0;; SUT=GestorEncomendas

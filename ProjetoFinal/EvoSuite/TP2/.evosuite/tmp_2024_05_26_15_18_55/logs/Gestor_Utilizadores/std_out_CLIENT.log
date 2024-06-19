@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 10188
+* Analyzing classpath: 
+  - C:\Users\silva\Documents\PL\Projeto2\TP2\target\classes
+  - C:\Users\silva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\silva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar
+  - C:\Users\silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar
+* Finished analyzing classpath
+* Generating tests for class Gestor_Utilizadores
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:30:55.080 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\evosuite-seeds\Gestor_Utilizadores.seed
+* Loaded 0 tests from C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\evosuite-seeds\Gestor_Utilizadores.seed
+* Total number of test goals: 
+  - Line 112
+  - Branch 71
+  - Exception 0
+  - MutationFactory 172
+  - Output 158
+  - Method 46
+  - MethodNoException 46
+  - CBranchFitnessFactory 71
+* Using seed 1716733852212
+* Starting evolution
+* Search finished after 57s and 162 generations, 62752 statements, best individual has fitness: 148.93348115299335
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 91%
+* Total number of goals: 112
+* Number of covered goals: 102
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 96%
+* Total number of goals: 71
+* Number of covered goals: 68
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 40
+* Number of covered goals: 40
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 90%
+* Total number of goals: 172
+* Number of covered goals: 154
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 32%
+* Total number of goals: 158
+* Number of covered goals: 51
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 46
+* Number of covered goals: 46
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 67%
+* Total number of goals: 46
+* Number of covered goals: 31
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 96%
+* Total number of goals: 71
+* Number of covered goals: 68
+* Generated 78 tests with total length 318
+* Resulting test suite's coverage: 84% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 28%
+* Compiling and checking tests
+* Writing JUnit test case 'Gestor_Utilizadores_ESTest' to C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\tmp_2024_05_26_15_18_55\tests
+* Done!
+

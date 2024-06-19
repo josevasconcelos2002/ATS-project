@@ -1,0 +1,5 @@
+[MASTER] 15:49:04.317 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.LinkedList<E> : Type points to itself
+[MASTER] 15:49:06.131 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.function.Function<T, R> : Type points to itself
+[MASTER] 15:49:09.380 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 15:49:49.357 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 15:50:27.377 [TEST_EXECUTION_THREAD_0] ERROR AbstractStatement - Error assigning value of type TemporalQuery[] defined at statement TemporalQuery<Sapatilhas>[] temporalQueryArray0 = (TemporalQuery<Sapatilhas>[]) Array.newInstance(TemporalQuery.class, 5);, assignment statement: temporalQueryArray0[0] = (TemporalQuery<Sapatilhas>) temporalQueryArray0;; SUT=Controller.ControladorEncomenda

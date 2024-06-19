@@ -1,0 +1,3 @@
+[MASTER] 15:52:40.166 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.util.Comparator<T> : Type points to itself
+[MASTER] 15:52:50.042 [pool-2-thread-1] ERROR TestCluster - Failed to check cache for java.time.temporal.TemporalQuery<R> : Type points to itself
+[MASTER] 15:53:34.970 [pool-2-thread-1] ERROR JUnitAnalyzer - Ran out of time while checking tests

@@ -1,0 +1,2485 @@
+* Starting client
+* Connecting to master process on port 15619
+* Analyzing classpath: 
+  - C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\target\test-classes
+  - C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\target\classes
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar
+  - C:\Users\silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar
+  - C:\Users\silva\.m2\repository\org\mockito\mockito-junit-jupiter\2.19.0\mockito-junit-jupiter-2.19.0.jar
+  - C:\Users\silva\.m2\repository\org\mockito\mockito-core\2.19.0\mockito-core-2.19.0.jar
+  - C:\Users\silva\.m2\repository\net\bytebuddy\byte-buddy\1.8.10\byte-buddy-1.8.10.jar
+  - C:\Users\silva\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.10\byte-buddy-agent-1.8.10.jar
+  - C:\Users\silva\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar
+  - C:\Users\silva\.m2\repository\net\objecthunter\exp4j\0.4.8\exp4j-0.4.8.jar
+  - C:\Users\silva\.m2\repository\org\jetbrains\annotations\24.0.0\annotations-24.0.0.jar
+* Finished analyzing classpath
+* Generating tests for class com.marketplace.vintage.order.Order
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:25:05.608 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\evosuite-seeds\com.marketplace.vintage.order.Order.seed
+* Loaded 0 tests from C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\evosuite-seeds\com.marketplace.vintage.order.Order.seed
+* Total number of test goals: 
+  - Line 53
+  - Branch 32
+  - Exception 0
+  - MutationFactory 15
+  - Output 67
+  - Method 19
+  - MethodNoException 19
+  - CBranchFitnessFactory 32
+* Using seed 1716755102751
+* Starting evolution
+* Search finished after 118s and 1482 generations, 685241 statements, best individual has fitness: 14.111111109074214
+* Writing sequences to pool
+* Minimizing test suite
+[MASTER] 21:27:04.332 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.332 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.335 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.335 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.336 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.336 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.336 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:04.340 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.340 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.342 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.342 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.346 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.346 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.346 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.347 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.347 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:04.349 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.349 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.349 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.349 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.349 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:04.366 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.366 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.370 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.370 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.372 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.372 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.374 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.374 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.376 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.376 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.378 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.378 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.380 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.380 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.410 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.411 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.413 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.413 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.416 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.416 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.418 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.418 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.421 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.421 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.423 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.423 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.426 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.426 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.429 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.429 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.521 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.521 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.524 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.524 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.527 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.527 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.529 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.529 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.530 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.531 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.555 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.555 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.557 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.557 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.559 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.559 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.561 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.561 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.563 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.563 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.601 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.601 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.603 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.604 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.605 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.606 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.608 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.608 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.611 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.611 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.614 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.614 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.616 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.616 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.618 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.619 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.623 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.623 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.628 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.629 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.647 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.648 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.650 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.650 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.652 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.652 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.655 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.655 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.657 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.657 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.719 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.719 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.721 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.721 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.723 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.723 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.725 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.725 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.726 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.727 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.778 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.778 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.780 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.780 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.781 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.782 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.783 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.783 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.785 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.785 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.787 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.787 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.789 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.789 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.791 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.791 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.834 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.834 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.836 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.836 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.838 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.838 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.840 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.840 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.842 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.842 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.844 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.844 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.845 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.846 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.847 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.847 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.976 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.976 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.978 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.978 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.980 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.980 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.982 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.982 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:04.984 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:04.984 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.005 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.005 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.007 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.007 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.009 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.009 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.010 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.010 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.012 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.012 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.027 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.028 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.029 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.029 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.032 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.032 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.034 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.034 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.036 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.036 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.038 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.038 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.041 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.041 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.043 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.043 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.045 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.045 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.093 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.093 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.095 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.095 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.097 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.097 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.099 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.099 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.100 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.100 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.102 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.102 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.103 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.103 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.104 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.105 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.106 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.107 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.151 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.151 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.152 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.153 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.154 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.154 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.155 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.156 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.157 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.158 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.220 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.220 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.222 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.222 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.224 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.224 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.226 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.226 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.228 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.228 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.230 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.230 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.232 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.232 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.233 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.234 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.235 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.236 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.237 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.237 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.239 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.239 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.240 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.241 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.242 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.242 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.244 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.244 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.245 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.245 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.247 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.247 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.248 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.248 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.396 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.396 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.396 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.396 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.396 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:05.398 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.398 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.513 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.513 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.513 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.513 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.513 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:05.515 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.515 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.517 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.518 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.520 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.520 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.523 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.523 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.524 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.524 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.526 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.526 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.527 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.528 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.529 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.529 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.530 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.530 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.532 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.532 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.533 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.533 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.535 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.535 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.536 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.536 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.538 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.538 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.540 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.540 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.544 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.544 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.547 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.547 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.624 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.624 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.626 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.626 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.628 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.628 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.630 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.630 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.632 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.632 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.634 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.634 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.635 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.635 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.637 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.637 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.638 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.638 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.640 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.640 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.642 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.642 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.643 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.643 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.645 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.645 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.646 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.646 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.648 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.648 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.649 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.649 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.651 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.651 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.653 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.653 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.654 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.654 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.656 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.657 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.658 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.658 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.659 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.660 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.661 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.661 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.663 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.663 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.664 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.665 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.666 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.667 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.668 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.668 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.670 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.670 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.671 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.671 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.675 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.675 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.676 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.676 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.678 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.679 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.679 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.679 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.682 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.682 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.683 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.683 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.685 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.686 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.687 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.687 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.690 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.690 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.691 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.691 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.694 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.694 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.695 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.695 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.701 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.701 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.701 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.701 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.701 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:05.702 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.702 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.773 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.773 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.774 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.774 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.775 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.775 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.776 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.776 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.777 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.777 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.778 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.778 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.779 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.779 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.780 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.780 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.781 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.781 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.817 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.818 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.819 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.819 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.820 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.820 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.821 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.821 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.823 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.823 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.824 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.824 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.849 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:05.851 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.851 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.937 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.937 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.938 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.938 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.940 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.940 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.942 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.942 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.943 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.943 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.945 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.945 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.947 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.947 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.948 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.949 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.950 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.950 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.991 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.991 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.991 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.991 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:05.991 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Method stack is empty: com.marketplace.vintage.order.Order.<init>(Lcom/marketplace/vintage/order/Order;)V - l27
+[MASTER] 21:27:05.992 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:05.993 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.029 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.029 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.031 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.031 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.033 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.033 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.035 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.035 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.037 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.037 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.038 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.038 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.039 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.039 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.041 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.041 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.042 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.042 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.228 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.228 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.231 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.231 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.255 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.255 [TEST_EXECUTION_THREAD_3] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 53
+* Number of covered goals: 53
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 100%
+* Total number of goals: 32
+* Number of covered goals: 32
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 8
+* Number of covered goals: 8
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 93%
+* Total number of goals: 15
+* Number of covered goals: 14
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 81%
+* Total number of goals: 67
+* Number of covered goals: 54
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 19
+* Number of covered goals: 19
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 100%
+* Total number of goals: 32
+* Number of covered goals: 32
+* Generated 43 tests with total length 321
+* Resulting test suite's coverage: 97% (average coverage for all fitness functions)
+* Generating assertions
+[MASTER] 21:27:06.567 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.568 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.570 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.570 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.572 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.572 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.575 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.575 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.772 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.772 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.803 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.803 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.807 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.807 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:06.810 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:06.810 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Resulting test suite's mutation score: 76%
+* Compiling and checking tests
+[MASTER] 21:27:09.786 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:09.786 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:16.023 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:16.023 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:20.796 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:20.796 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Writing JUnit test case 'Order_ESTest' to C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\tmp_2024_05_26_21_03_23\tests
+[MASTER] 21:27:23.094 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:23.094 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+[MASTER] 21:27:23.114 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Popping method clone()Lcom/marketplace/vintage/order/Order; because we were looking for <init>(Lcom/marketplace/vintage/order/Order;)V
+[MASTER] 21:27:23.114 [TEST_EXECUTION_THREAD_4] WARN  ExecutionTrace - Current stack: [com.marketplace.vintage.order.Order:clone()Lcom/marketplace/vintage/order/Order;
+Branches: 
+True Distances: 
+False Distances: 
+, :
+Branches: 
+True Distances: 
+False Distances: 
+]
+* Done!
+

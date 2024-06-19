@@ -1,0 +1,89 @@
+* Starting client
+* Connecting to master process on port 20104
+* Analyzing classpath: 
+  - C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\target\test-classes
+  - C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\target\classes
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar
+  - C:\Users\silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar
+  - C:\Users\silva\.m2\repository\org\mockito\mockito-junit-jupiter\2.19.0\mockito-junit-jupiter-2.19.0.jar
+  - C:\Users\silva\.m2\repository\org\mockito\mockito-core\2.19.0\mockito-core-2.19.0.jar
+  - C:\Users\silva\.m2\repository\net\bytebuddy\byte-buddy\1.8.10\byte-buddy-1.8.10.jar
+  - C:\Users\silva\.m2\repository\net\bytebuddy\byte-buddy-agent\1.8.10\byte-buddy-agent-1.8.10.jar
+  - C:\Users\silva\.m2\repository\org\objenesis\objenesis\2.6\objenesis-2.6.jar
+  - C:\Users\silva\.m2\repository\net\objecthunter\exp4j\0.4.8\exp4j-0.4.8.jar
+  - C:\Users\silva\.m2\repository\org\jetbrains\annotations\24.0.0\annotations-24.0.0.jar
+* Finished analyzing classpath
+* Generating tests for class impl.SapatilhasItem
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 21:15:25.956 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\evosuite-seeds\impl.SapatilhasItem.seed
+* Loaded 0 tests from C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\evosuite-seeds\impl.SapatilhasItem.seed
+* Total number of test goals: 
+  - Line 60
+  - Branch 36
+  - Exception 0
+  - MutationFactory 112
+  - Output 32
+  - Method 13
+  - MethodNoException 13
+  - CBranchFitnessFactory 36
+* Using seed 1716754522164
+* Starting evolution
+* Search finished after 158s and 1471 generations, 634487 statements, best individual has fitness: 16.642857142857142
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 100%
+* Total number of goals: 60
+* Number of covered goals: 60
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 92%
+* Total number of goals: 36
+* Number of covered goals: 33
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 6
+* Number of covered goals: 6
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 96%
+* Total number of goals: 112
+* Number of covered goals: 108
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 78%
+* Total number of goals: 32
+* Number of covered goals: 25
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 100%
+* Total number of goals: 13
+* Number of covered goals: 13
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 92%
+* Total number of goals: 36
+* Number of covered goals: 33
+* Generated 36 tests with total length 175
+* Resulting test suite's coverage: 95% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 82%
+* Compiling and checking tests
+* Writing JUnit test case 'SapatilhasItem_ESTest' to C:\Users\silva\Downloads\trabalhos_POO 2\trabalhos_POO\TP3333\.evosuite\tmp_2024_05_26_21_03_23\tests
+* Done!
+

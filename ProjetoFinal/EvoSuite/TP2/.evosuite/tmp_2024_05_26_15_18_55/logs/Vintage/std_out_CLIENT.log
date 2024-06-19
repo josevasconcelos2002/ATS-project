@@ -1,0 +1,83 @@
+* Starting client
+* Connecting to master process on port 2785
+* Analyzing classpath: 
+  - C:\Users\silva\Documents\PL\Projeto2\TP2\target\classes
+  - C:\Users\silva\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar
+  - C:\Users\silva\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar
+  - C:\Users\silva\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar
+  - C:\Users\silva\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar
+* Finished analyzing classpath
+* Generating tests for class Vintage
+* Test criteria:
+  - Line Coverage
+  - Branch Coverage
+  - Exception
+  - Mutation testing (weak)
+  - Method-Output Coverage
+  - Top-Level Method Coverage
+  - No-Exception Top-Level Method Coverage
+  - Context Branch Coverage
+* Setting up search algorithm for whole suite generation
+[MASTER] 15:27:40.241 [pool-2-thread-1] WARN  TestSuiteSerialization - Cannot load tests because file does not exist: C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\evosuite-seeds\Vintage.seed
+* Loaded 0 tests from C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\evosuite-seeds\Vintage.seed
+* Total number of test goals: 
+  - Line 389
+  - Branch 135
+  - Exception 0
+  - MutationFactory 968
+  - Output 182
+  - Method 88
+  - MethodNoException 88
+  - CBranchFitnessFactory 135
+* Using seed 1716733657551
+* Starting evolution
+* Search finished after 76s and 108 generations, 48849 statements, best individual has fitness: 407.51198256661513
+* Writing sequences to pool
+* Minimizing test suite
+* Going to analyze the coverage criteria
+* Coverage analysis for criterion LINE
+* Coverage of criterion LINE: 61%
+* Total number of goals: 389
+* Number of covered goals: 237
+* Coverage analysis for criterion BRANCH
+* Coverage of criterion BRANCH: 77%
+* Total number of goals: 135
+* Number of covered goals: 104
+* Coverage analysis for criterion EXCEPTION
+* Coverage of criterion EXCEPTION: 100%
+* Total number of goals: 53
+* Number of covered goals: 53
+* Coverage analysis for criterion WEAKMUTATION
+* Coverage of criterion WEAKMUTATION: 86%
+* Total number of goals: 968
+* Number of covered goals: 828
+* Coverage analysis for criterion OUTPUT
+* Coverage of criterion OUTPUT: 33%
+* Total number of goals: 182
+* Number of covered goals: 60
+* Coverage analysis for criterion METHOD
+* Coverage of criterion METHOD: 100%
+* Total number of goals: 88
+* Number of covered goals: 88
+* Coverage analysis for criterion METHODNOEXCEPTION
+* Coverage of criterion METHODNOEXCEPTION: 72%
+* Total number of goals: 88
+* Number of covered goals: 63
+* Coverage analysis for criterion CBRANCH
+* Coverage of criterion CBRANCH: 77%
+* Total number of goals: 135
+* Number of covered goals: 104
+* Generated 126 tests with total length 499
+* Resulting test suite's coverage: 76% (average coverage for all fitness functions)
+* Generating assertions
+* Resulting test suite's mutation score: 10%
+* Compiling and checking tests
+* Writing JUnit test case 'Vintage_ESTest' to C:\Users\silva\Documents\PL\Projeto2\TP2\.evosuite\tmp_2024_05_26_15_18_55\tests
+* Done!
+
